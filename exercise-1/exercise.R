@@ -10,7 +10,7 @@ ten <- AddThree(7)
 
 # Write a function `FeetToMeters` that converts from feet to meters
 FeetToMeters <- function(a) {
-  answer <- a / 2.2
+  answer <- a * .3048
   return(answer)
 }
 
